@@ -1,0 +1,9 @@
+name: buildingobjects
+author: TheMagicTV
+version: 1.0
+main: main.Main
+
+commands:
+  buildobject:
+    description: Get the amount of coins from a player
+    usage: /<coins> [playername | uuid]
