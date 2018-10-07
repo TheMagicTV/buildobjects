@@ -1,11 +1,11 @@
 package main;
 
-/*
+/*aaaa
  * Der Spieler geht in ein Projekt
- * Der Spieler setzt blöcke
+ * Der Spieler setzt blÃ¶cke
  * Nachdem der Spieler alles gebaut hat stellt er sich an einen Punkt und schreibt /buildproject save
- * Dann werden alle Blöcke, die gesetzt wurden, relativ zu der Spieler-Location gespeichert
- * Später kann dann der Spieler /buildproject paste [projektname] machen
+ * Dann werden alle BlÃ¶cke, die gesetzt wurden, relativ zu der Spieler-Location gespeichert
+ * SpÃ¤ter kann dann der Spieler /buildproject paste [projektname] machen
  */
 
 
@@ -23,7 +23,7 @@ import listener.LISTENER_blockplace;
 
 public class Main extends JavaPlugin{
 
-	private String prefix = "§7[§6BuildObjects§7] ";
+	private String prefix = "Â§7[Â§6BuildObjectsÂ§7] ";
 	private DatenbankDatentransfer datenbankDatentransfer;
 	
 	private HashMap<Player,String> workerOnProject = new HashMap<>();
